@@ -39,7 +39,7 @@ a:link {
   color: #ffa949;
   text-decoration: none; }
 a:visited {
-  color: lightblue; }
+  color: #add8e6; }
 a:hover {
   color: rgba(255, 169, 73, 0.4); }
 
@@ -62,10 +62,10 @@ a:hover {
 .secondary-content {
   padding-top: 80px;
   padding-bottom: 70px;
-  border-bottom: 2px solid #dfe2e6; }
+  border-bottom: 2px solid #e0e0e0; }
 
 .wildlife {
-  color: white;
+  color: #fff;
   text-align: left;
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
@@ -85,7 +85,7 @@ a:hover {
   text-align: center; }
 
 .primary-content, .secondary-content {
-  border-top: 2px solid #dfe2e6; }
+  border-top: 2px solid #e0e0e0; }
 
 .primary-content, .secondary-content {
   width: 75%;
@@ -115,7 +115,7 @@ a:hover {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   margin: 12px 0 0; }
 .main-title {
-  color: white;
+  color: #fff;
   font-size: 1.625rem;
   letter-spacing: .065em;
   font-weight: 200;
