@@ -42,19 +42,20 @@ li {
   margin-bottom: 10px;
 }
 
-a:link {
-  color: rgb(255, 169, 73);
-  text-decoration: none;
-}
 
-a:visited {
-  color: lightblue;
-}
+/* Pseudo-classes ---------------*/
 
-a:hover {
-  color: rgba(255, 169, 73, .4);
-}
+a {
+  &:link {
+    color: rgb(255, 169, 73);
+      text-decoration: none;
+  }
 
-a:active {
-  color: lightcoral;
+  &:visited {
+      color: lightblue;
+  }
+
+  &:hover {
+    color: rgba(255, 169, 73, .4);
+  }
 }
