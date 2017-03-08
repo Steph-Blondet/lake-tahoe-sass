@@ -1,12 +1,9 @@
-.resorts,
 .tips {
-  width: 46.5%;
-}
-
-.tips {
-  float: left;
+    @extend %columns;
+    float: left;
 }
 
 .resorts {
-  float: right;
+    @extend %columns;
+    float: right;
 }
